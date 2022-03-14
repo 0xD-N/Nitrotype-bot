@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.opera.options import Options
+from selenium.webdriver.opera.webdriver import WebDriver
 
 #Selenium Driver. If you want to use chrome (or any browser): 
 
@@ -30,3 +31,10 @@ class Automation():
     
     def getDriver(self):
         return self.__driver
+    
+class UrlHasChanged:
+    def __init__(self, old_url):
+        self.old_url = old_url
+
+    def __call__(self, driver):
+        return driver.current_url != self.old_url
