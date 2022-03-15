@@ -26,7 +26,7 @@ def start():
                 
             except TimeoutException:
                 
-                if count >= 500:
+                if count >= 300:
                     os.system("cls")
                     print("Nitrotype wasn't in race mode for 5 minutes. Quitting..")
                     return
