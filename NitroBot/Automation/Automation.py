@@ -1,6 +1,7 @@
+import os
 from selenium import webdriver
-from selenium.webdriver.opera.options import Options
-from selenium.webdriver.opera.webdriver import WebDriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.common.exceptions import NoSuchWindowException, InvalidCookieDomainException
 
 #Selenium Driver. If you want to use chrome (or any browser): 
 
@@ -12,25 +13,29 @@ from selenium.webdriver.opera.webdriver import WebDriver
 
 class Automation():
     
-    __BINARY_PATH = r"C:\Program Files (x86)\operaDriver\operadriver.exe"
+    __BINARY_PATH = r"C:\Program Files (x86)\chromeDriver\chromedriver_win32\chromedriver.exe"
     
     def __init__(self):
         
-        self.__options = Options()
+        #C:\Users\david\AppData\Local\Google\Chrome\User Data
+        self.__options = webdriver.ChromeOptions()
         
-        self.__options.add_argument(r"--user-data-dir=C:\Users\david\AppData\Roaming\Opera Software\Opera Stable")
-        self.__options.add_argument('--disable-blink-features=AutomationControlled')
-        self.__options.add_argument('--ignore-certificate-errors')
-        self.__options.add_argument('--headless')
-        self.__options.add_argument('--profile-directory=Default') 
-        self.__options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        self.__options.add_argument(f"--user-data-dir=C:\\Users\\david\\AppData\\Local\\Google\\Chrome\\User Data")
+        self.__options.add_argument("--disable-blink-features=AutomationControlled")
+        self.__options.add_experimental_option("excludeSwitches", ["enable-logging", "enable-automation"])
         self.__options.add_experimental_option('useAutomationExtension', False)
-        self.__options.add_experimental_option("w3c", True)
-
-        self.__driver = webdriver.Opera(executable_path=self.__BINARY_PATH, options=self.__options)
+        self.__driver = webdriver.Chrome(executable_path=self.__BINARY_PATH, options=self.__options)
+        
+        
+        self.getDriver().get("https://www.google.com/search?q=nitrotype&sxsrf=APq-WBuYHaiAIQhnlbDKSn6zjGb_y9WczA%3A1647310145562&source=hp&ei=QfUvYvDIH-i6qtsPi4u98AU&iflsig=AHkkrS4AAAAAYjADUeFui_25c3Srqnl_wt5fl8IydvkX&ved=0ahUKEwiw7bvAhMf2AhVonWoFHYtFD14Q4dUDCAg&uact=5&oq=nitrotype&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEIAEEAoyBwgAEIAEEAoyBwgAEIAEEAoyBwgAEIAEEAoyBQgAEIAEMgcIABCABBAKMgcIABCABBAKMgcIABCABBAKMgUIABCABDIHCAAQgAQQCjoECCMQJzoOCC4QgAQQsQMQxwEQ0QM6CwgAEIAEELEDEIMBOg4ILhCABBCxAxCDARDUAjoICAAQsQMQgwE6CwguEIAEELEDENQCOg4ILhCABBCxAxDHARCjAjoICAAQgAQQsQM6EQguEIAEELEDEMcBENEDENQCUABYiglg3ApoAHAAeACAAYsBiAGoBpIBAzUuNJgBAKABAQ&sclient=gws-wiz")
+        os.system("cls")
+        
     
     def getDriver(self):
         return self.__driver
+        
+    
+        
     
 class UrlHasChanged:
     def __init__(self, old_url):

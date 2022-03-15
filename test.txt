@@ -1,0 +1,63 @@
+{'domain': '.dashnet.org', 'expiry': 1680937418, 'httpOnly': False, 'name': '__gads', 'path': '/', 'secure': True, 'value': 'ID=61a3db19353c622e-22d4242147d10047:T=1647241418:RT=1647241418:S=ALNI_MY_R-Eb2RSFPKFPO4SbZV-goJaE3A'}
+
+{'domain': '.dashnet.org', 'expiry': 1678780114, 'httpOnly': False, 'name': 'cookieconsent_dismissed', 'path': '/', 'secure': False, 'value': 'yes'}
+
+{'domain': '.dashnet.org', 'expiry': 1655020114, 'httpOnly': False, 'name': '_fbp', 'path': '/', 'secure': False, 'value': 'fb.1.1647241419484.1061270357'}
+
+{'domain': '.cookiebot.com', 'expiry': 1647331761, 'httpOnly': False, 'name': '_clsk', 'path': '/', 'secure': False, 'value': 'f9m1hh|1647245361232|1|1|l.clarity.ms/collect'}
+
+{'domain': '.cookiebot.com', 'expiry': 1678781361, 'httpOnly': False, 'name': '_clck', 'path': '/', 'secure': False, 'value': '17f2onp|1|ezr|0'}
+
+{'domain': 'www.cookiebot.com', 'expiry': 1678781360, 'httpOnly': False, 'name': 'userlang', 'path': '/', 'secure': False, 'value': 'en'}
+
+{'domain': 'www.cookiebot.com', 'httpOnly': True, 'name': 'ASP.NET_SessionId', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'cpuikhkwi4ajirjbvajp0m2p'}
+
+{'domain': '.www.cookiebot.com', 'expiry': 1710317360, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.3.1297546749.1647245358'}
+
+{'domain': '.cookiebot.com', 'expiry': 1647331760, 'httpOnly': False, 'name': '_uetsid', 'path': '/', 'secure': False, 'value': '0d36e3b0a36e11ecae0261fbdda626b6'}
+
+{'domain': 'www.cookiebot.com', 'expiry': 1678781359, 'httpOnly': False, 'name': 'CookieConsent', 'path': '/', 'secure': True, 'value': '{stamp:%27PcJktb8VyF/Shdo29xHTxIXyppwGpyP/3d2SsGYOq6f4lcv2S++2yQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:19%2Cutc:1647245359377%2Cregion:%27us-06%27}'}
+
+{'domain': '.www.cookiebot.com', 'expiry': 1655021360, 'httpOnly': False, 'name': '_gcl_aw', 'path': '/', 'secure': False, 'value': 'GCL.1647245360.EAIaIQobChMIo5jrj5PF9gIVLBXUAR1BGAzxEAAYAiAAEgLB1_D_BwE'}
+
+{'domain': '.www.cookiebot.com', 'expiry': 1710317360, 'httpOnly': False, 'name': '_ga_WX15RJ0HZZ', 'path': '/', 'secure': False, 'value': 'GS1.3.1647245355.1.0.1647245360.0'}
+
+{'domain': '.www.cookiebot.com', 'expiry': 1655021360, 'httpOnly': False, 'name': '_gcl_au', 'path': '/', 'secure': False, 'value': '1.3.2101815147.1647245360'}
+
+{'domain': '.cookiebot.com', 'expiry': 1680941360, 'httpOnly': False, 'name': '_uetvid', 'path': '/', 'secure': False, 'value': '0d378cc0a36e11ecab944797ed12e121'}
+
+{'domain': '.cookiebot.com', 'expiry': 1647252554, 'httpOnly': True, 'name': 'ak_bmsc', 'path': '/', 'secure': False, 'value': '0E18DD3F34D9CB738E19DBDE693C842D~000000000000000000000000000000~YAAQLcpNF7MPekl/AQAA32J5hw9sy++26zXx0DE4ANNhWfeaJ+uwwpUYPvz2uZY27zTVd1p/POXo9PzSVuGsjVIy1RzZP5JN0nuRr9OcvrSOTsnVuGueFtRFiWk/46vWE3l/FDhYZsW3W6p4+qOeK776xI2iz0CGXmkKi2tn8qwD+nAEAjX4CV/GFPomgezXKwAvnrQNZKM5+J6K3Vr349QEd5sgECXEwqmGaEz0gaD1GwUYzlc4LUho+//EwuEmE+yzKim6NiIE0Y1bsrnt+7a4E73/64yzXwJZE+L7xeOxvCB5Zh2TbOT0cYCVfL08QDpjkv46dso9SwxEWiWgbQgmsC3vsOr84T6+jmw4xiFe1mJ1DB2pF8JeFl7WNbu7GMZUXoZ/2GygMRQE7Q=='}
+
+{'domain': 'www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atssc', 'path': '/', 'secure': False, 'value': 'google%3B1'}
+
+{'domain': 'www.whatarecookies.com', 'expiry': 1647247246, 'httpOnly': False, 'name': '__atuvs', 'path': '/', 'secure': False, 'value': '622ef8842349ecb1000'}
+
+{'domain': '.whatarecookies.com', 'expiry': 1647245504, 'httpOnly': False, 'name': '_gat', 'path': '/', 'secure': False, 'value': '1'}
+
+{'domain': '.whatarecookies.com', 'expiry': 1710317444, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.2.1670522970.1647245445'}
+
+{'domain': '.whatarecookies.com', 'expiry': 1680941444, 'httpOnly': False, 'name': '__gads', 'path': '/', 'secure': False, 'value': 'ID=53e88d0d5f2fe68b-22aff82c47d100cb:T=1647245444:RT=1647245444:S=ALNI_ManMI7DRIEJ_diGlwQzrHVSlJWU3g'}
+
+{'domain': '.whatarecookies.com', 'expiry': 1647331844, 'httpOnly': False, 'name': '_gid', 'path': '/', 'secure': False, 'value': 'GA1.2.1335957984.1647245445'}
+
+{'domain': 'www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atuvc', 'path': '/', 'secure': False, 'value': '1%7C11'}
+
+{'domain': 'www.whatarecookies.com', 'expiry': 1647246644, 'httpOnly': False, 'name': 'dta', 'path': '/', 'secure': False, 'value': 'vcount%3D0%2Cprev%3D1647245444487'}
+
+{'domain': 'www.whatarecookies.com', 'httpOnly': False, 'name': 'ASPSESSIONIDSQDRQSQD', 'path': '/', 'secure': False, 'value': 'LNLLMDPCKBJBKNBHNMMPGFHF'}
+
+{'domain': 'www.whatarecookies.com', 'expiry': 1678752004, 'httpOnly': False, 'name': 'cookieconsent', 'path': '/', 'secure': False, 'value': '2US'}
+
+{'domain': '.www.whatarecookies.com', 'expiry': 1678752004, 'httpOnly': False, 'name': 'cookieconsent', 'path': '/', 'secure': False, 'value': '2US'}
+
+{'domain': '.www.whatarecookies.com', 'expiry': 1647246644, 'httpOnly': False, 'name': 'dta', 'path': '/', 'secure': False, 'value': 'vcount%3D0%2Cprev%3D1647245444487'}
+
+{'domain': '.www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atuvc', 'path': '/', 'secure': False, 'value': '1%7C11'}
+
+{'domain': '.www.whatarecookies.com', 'expiry': 1647247246, 'httpOnly': False, 'name': '__atuvs', 'path': '/', 'secure': False, 'value': '622ef8842349ecb1000'}
+
+{'domain': '.www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atssc', 'path': '/', 'secure': False, 'value': 'google%3B1'}
+
+{'domain': '.www.whatarecookies.com', 'httpOnly': False, 'name': 'ASPSESSIONIDSQDRQSQD', 'path': '/', 'secure': False, 'value': 'LNLLMDPCKBJBKNBHNMMPGFHF'}
+
+[{'domain': '.dashnet.org', 'expiry': 1680937418, 'httpOnly': False, 'name': '__gads', 'path': '/', 'secure': True, 'value': 'ID=61a3db19353c622e-22d4242147d10047:T=1647241418:RT=1647241418:S=ALNI_MY_R-Eb2RSFPKFPO4SbZV-goJaE3A'}, {'domain': '.dashnet.org', 'expiry': 1678780114, 'httpOnly': False, 'name': 'cookieconsent_dismissed', 'path': '/', 'secure': False, 'value': 'yes'}, {'domain': '.dashnet.org', 'expiry': 1655020114, 'httpOnly': False, 'name': '_fbp', 'path': '/', 'secure': False, 'value': 'fb.1.1647241419484.1061270357'}, {'domain': '.cookiebot.com', 'expiry': 1647331761, 'httpOnly': False, 'name': '_clsk', 'path': '/', 'secure': False, 'value': 'f9m1hh|1647245361232|1|1|l.clarity.ms/collect'}, {'domain': '.cookiebot.com', 'expiry': 1678781361, 'httpOnly': False, 'name': '_clck', 'path': '/', 'secure': False, 'value': '17f2onp|1|ezr|0'}, {'domain': 'www.cookiebot.com', 'expiry': 1678781360, 'httpOnly': False, 'name': 'userlang', 'path': '/', 'secure': False, 'value': 'en'}, {'domain': 'www.cookiebot.com', 'httpOnly': True, 'name': 'ASP.NET_SessionId', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'cpuikhkwi4ajirjbvajp0m2p'}, {'domain': '.www.cookiebot.com', 'expiry': 1710317360, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.3.1297546749.1647245358'}, {'domain': '.cookiebot.com', 'expiry': 1647331760, 'httpOnly': False, 'name': '_uetsid', 'path': '/', 'secure': False, 'value': '0d36e3b0a36e11ecae0261fbdda626b6'}, {'domain': 'www.cookiebot.com', 'expiry': 1678781359, 'httpOnly': False, 'name': 'CookieConsent', 'path': '/', 'secure': True, 'value': '{stamp:%27PcJktb8VyF/Shdo29xHTxIXyppwGpyP/3d2SsGYOq6f4lcv2S++2yQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:19%2Cutc:1647245359377%2Cregion:%27us-06%27}'}, {'domain': '.www.cookiebot.com', 'expiry': 1655021360, 'httpOnly': False, 'name': '_gcl_aw', 'path': '/', 'secure': False, 'value': 'GCL.1647245360.EAIaIQobChMIo5jrj5PF9gIVLBXUAR1BGAzxEAAYAiAAEgLB1_D_BwE'}, {'domain': '.www.cookiebot.com', 'expiry': 1710317360, 'httpOnly': False, 'name': '_ga_WX15RJ0HZZ', 'path': '/', 'secure': False, 'value': 'GS1.3.1647245355.1.0.1647245360.0'}, {'domain': '.www.cookiebot.com', 'expiry': 1655021360, 'httpOnly': False, 'name': '_gcl_au', 'path': '/', 'secure': False, 'value': '1.3.2101815147.1647245360'}, {'domain': '.cookiebot.com', 'expiry': 1680941360, 'httpOnly': False, 'name': '_uetvid', 'path': '/', 'secure': False, 'value': '0d378cc0a36e11ecab944797ed12e121'}, {'domain': '.cookiebot.com', 'expiry': 1647252554, 'httpOnly': True, 'name': 'ak_bmsc', 'path': '/', 'secure': False, 'value': '0E18DD3F34D9CB738E19DBDE693C842D~000000000000000000000000000000~YAAQLcpNF7MPekl/AQAA32J5hw9sy++26zXx0DE4ANNhWfeaJ+uwwpUYPvz2uZY27zTVd1p/POXo9PzSVuGsjVIy1RzZP5JN0nuRr9OcvrSOTsnVuGueFtRFiWk/46vWE3l/FDhYZsW3W6p4+qOeK776xI2iz0CGXmkKi2tn8qwD+nAEAjX4CV/GFPomgezXKwAvnrQNZKM5+J6K3Vr349QEd5sgECXEwqmGaEz0gaD1GwUYzlc4LUho+//EwuEmE+yzKim6NiIE0Y1bsrnt+7a4E73/64yzXwJZE+L7xeOxvCB5Zh2TbOT0cYCVfL08QDpjkv46dso9SwxEWiWgbQgmsC3vsOr84T6+jmw4xiFe1mJ1DB2pF8JeFl7WNbu7GMZUXoZ/2GygMRQE7Q=='}, {'domain': 'www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atssc', 'path': '/', 'secure': False, 'value': 'google%3B1'}, {'domain': 'www.whatarecookies.com', 'expiry': 1647247246, 'httpOnly': False, 'name': '__atuvs', 'path': '/', 'secure': False, 'value': '622ef8842349ecb1000'}, {'domain': '.whatarecookies.com', 'expiry': 1647245504, 'httpOnly': False, 'name': '_gat', 'path': '/', 'secure': False, 'value': '1'}, {'domain': '.whatarecookies.com', 'expiry': 1710317444, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.2.1670522970.1647245445'}, {'domain': '.whatarecookies.com', 'expiry': 1680941444, 'httpOnly': False, 'name': '__gads', 'path': '/', 'secure': False, 'value': 'ID=53e88d0d5f2fe68b-22aff82c47d100cb:T=1647245444:RT=1647245444:S=ALNI_ManMI7DRIEJ_diGlwQzrHVSlJWU3g'}, {'domain': '.whatarecookies.com', 'expiry': 1647331844, 'httpOnly': False, 'name': '_gid', 'path': '/', 'secure': False, 'value': 'GA1.2.1335957984.1647245445'}, {'domain': 'www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atuvc', 'path': '/', 'secure': False, 'value': '1%7C11'}, {'domain': 'www.whatarecookies.com', 'expiry': 1647246644, 'httpOnly': False, 'name': 'dta', 'path': '/', 'secure': False, 'value': 'vcount%3D0%2Cprev%3D1647245444487'}, {'domain': 'www.whatarecookies.com', 'httpOnly': False, 'name': 'ASPSESSIONIDSQDRQSQD', 'path': '/', 'secure': False, 'value': 'LNLLMDPCKBJBKNBHNMMPGFHF'}, {'domain': 'www.whatarecookies.com', 'expiry': 1678752004, 'httpOnly': False, 'name': 'cookieconsent', 'path': '/', 'secure': False, 'value': '2US'}, {'domain': '.www.whatarecookies.com', 'expiry': 1678752004, 'httpOnly': False, 'name': 'cookieconsent', 'path': '/', 'secure': False, 'value': '2US'}, {'domain': '.www.whatarecookies.com', 'expiry': 1647246644, 'httpOnly': False, 'name': 'dta', 'path': '/', 'secure': False, 'value': 'vcount%3D0%2Cprev%3D1647245444487'}, {'domain': '.www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atuvc', 'path': '/', 'secure': False, 'value': '1%7C11'}, {'domain': '.www.whatarecookies.com', 'expiry': 1647247246, 'httpOnly': False, 'name': '__atuvs', 'path': '/', 'secure': False, 'value': '622ef8842349ecb1000'}, {'domain': '.www.whatarecookies.com', 'expiry': 1681459846, 'httpOnly': False, 'name': '__atssc', 'path': '/', 'secure': False, 'value': 'google%3B1'}, {'domain': '.www.whatarecookies.com', 'httpOnly': False, 'name': 'ASPSESSIONIDSQDRQSQD', 'path': '/', 'secure': False, 'value': 'LNLLMDPCKBJBKNBHNMMPGFHF'}]
