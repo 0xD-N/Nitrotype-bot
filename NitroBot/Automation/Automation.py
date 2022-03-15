@@ -2,6 +2,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.common.exceptions import NoSuchWindowException, InvalidCookieDomainException
+from selenium.webdriver.common.by import By
 
 #Selenium Driver. If you want to use chrome (or any browser): 
 
@@ -43,3 +44,9 @@ class UrlHasChanged:
 
     def __call__(self, driver):
         return driver.current_url != self.old_url
+    
+
+class CountdownStarted:
+      
+    def __call__(self, driver: WebDriver):
+        return len(driver.find_elements(By.XPATH, "//*//div[@class=\"dash-center\"]//following-sibling::*")) > 1
