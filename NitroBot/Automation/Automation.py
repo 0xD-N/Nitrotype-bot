@@ -39,6 +39,7 @@ class Automation():
         
     
 class UrlHasChanged:
+    
     def __init__(self, old_url):
         self.old_url = old_url
 
@@ -50,3 +51,14 @@ class CountdownStarted:
       
     def __call__(self, driver: WebDriver):
         return len(driver.find_elements(By.XPATH, "//*//div[@class=\"dash-center\"]//following-sibling::*")) > 1
+
+# the difference between this and UrlHasChanges is this method determins whether the page has been refreshed or changed. Used for the end of each race
+class pageHasChanged:
+    
+    def __init__(self, old_url):
+        self.old_url = old_url
+    
+    def __call__(self, driver: WebDriver):
+        
+        return driver.current_url != self.old_url or len(driver.find_elements(By.XPATH, "//*//div[@class =\"raceResults raceResults--default\"]")) == 0
+    
