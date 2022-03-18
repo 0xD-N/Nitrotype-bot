@@ -60,5 +60,5 @@ class pageHasChanged:
     
     def __call__(self, driver: WebDriver):
         
-        return driver.current_url != self.old_url or len(driver.find_elements(By.XPATH, "//*//div[@class =\"raceResults raceResults--default\"]")) == 0
+        return driver.current_url != self.old_url or len(driver.find_elements(By.XPATH, "//*//div[@class=\"race-results\"]")) == 0
     
