@@ -74,7 +74,7 @@ def start():
                         
                         inputBox.send_keys(Keys.SPACE if letter[0].text == "&nbsp;" else letter[0].text)
                         
-                        time.sleep(0.0015)
+                        time.sleep(0.000015)
 
                 if not performType:
                     print("Not typing")
