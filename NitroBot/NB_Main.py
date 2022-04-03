@@ -35,10 +35,12 @@ def start():
                         print("Nitrotype wasn't in race mode for 5 minutes. Quitting..")
                         return
             
+           
             #if the game is over wait until the page is refreshed or changed to continue (up to 5 minutes)
             if gameIsOver:
                 
                 #waits until the page is refreshed or the page is redirected elsewhere
+                time.sleep(4)
                 WebDriverWait(A.getDriver(), 300).until(pageHasChanged(A.getDriver().current_url))
 
                 gameIsOver = False
@@ -48,18 +50,19 @@ def start():
                 #wait until countdown starts
                 WebDriverWait(A.getDriver(), 60).until(CountdownStarted())
                 
-                #input for typing
-                inputBox: WebElement = (WebDriverWait(A.getDriver(), 10).until(lambda d: d.find_element(By.XPATH, "//input")))
-                
-                
-        
-                fullText = "".join((WebDriverWait(A.getDriver(), 10).until(lambda d: d.find_element(By.XPATH, "//*//div[@class=\"dash-copy\"]"))).text.split("\n"))
-
-                
-                
                 #wait 3 seconds before typing
                 time.sleep(3)
                 
+                
+                #input for typing
+                inputBox: WebElement = (WebDriverWait(A.getDriver(), 10).until(lambda d: d.find_element(By.XPATH, "//input")))
+
+                fullText = "".join((WebDriverWait(A.getDriver(), 10).until(lambda d: d.find_element(By.XPATH, "//*//div[@class=\"dash-copy\"]"))).text.split("\n"))
+                
+                with open("test.txt", "w") as f:
+                    
+                    for word in fullText:
+                        f.write(word)
                 if performType:
                     print("beginning to type")
                 while performType:
@@ -74,7 +77,7 @@ def start():
                         
                         inputBox.send_keys(Keys.SPACE if letter[0].text == "&nbsp;" else letter[0].text)
                         
-                        time.sleep(0.000015)
+                        #time.sleep(0.000000015)
 
                 if not performType:
                     print("Not typing")
